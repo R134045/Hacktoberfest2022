@@ -1,0 +1,57 @@
+/* Reset some default styles to start with a clean slate */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the page header */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 36px;
+}
+
+/* Style the input and button for adding tasks */
+#taskInput {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#addTask {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Style the task list */
+ul {
+  margin: 0 auto;
+  width: 70%;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li.completed {
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: line-through;
+}
